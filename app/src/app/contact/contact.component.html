@@ -1,0 +1,22 @@
+<div class="container">
+    <form [formGroup]="contactForm" class="form-group">
+
+
+        <mat-form-field>
+            <mat-label>Nume</mat-label>
+            <input matInput formControlName="name">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Write us...</mat-label>
+            <textarea matInput formControlName="message"></textarea>
+        </mat-form-field>
+
+        <button mat-raised-button color="warn"  (click)="submitData(contactForm.value)">Trimite</button>
+    </form>
+</div>

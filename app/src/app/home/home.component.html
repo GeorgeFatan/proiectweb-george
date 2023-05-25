@@ -1,0 +1,12 @@
+<ul>
+  <li *ngFor="let film of filme">
+    <div class="film-container">
+      <img [src]="film.imageUrl" alt="" class="film-image"
+           (mouseover)="showFilmName = true" (mouseout)="showFilmName = false">
+      <div class="continut">
+        <div class="nume" [ngClass]="{'red-text': showFilmName}">{{film.nume}}</div>
+        <div class="gen" [ngClass]="{'red-text': showFilmName}">{{film.gen}}</div>
+      </div>
+    </div>
+  </li>
+</ul>

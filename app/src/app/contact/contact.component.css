@@ -1,0 +1,18 @@
+.container{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group input, .form-group textarea{
+    width: 100%;
+}
+

@@ -1,0 +1,35 @@
+.about-container {
+    background-color: #1c1c1c; /* culoarea fundalului */
+    color: #fff; /* culoarea textului */
+    font-family: Arial, Helvetica, sans-serif; /* fontul */
+    padding: 20px; /* spatiu intre marginea containerului si continut */
+    border-radius: 5px; /* colturile rotunjite ale containerului */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* umbra containerului */
+    text-align: center ;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .about-title {
+    font-size: 36px; /* marimea titlului */
+    font-weight: bold; /* bold textului */
+    margin-bottom: 20px; /* spatiu intre titlu si continut */
+  }
+  
+  .about-text {
+    font-size: 18px; /* marimea textului */
+    line-height: 1.5; /* spatiul dintre randuri */
+  }
+  
+  .imagine-about{
+    width: 30%;
+  }

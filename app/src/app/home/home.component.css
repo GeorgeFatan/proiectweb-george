@@ -1,0 +1,43 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    height: 300px;
+    width: 300px;
+    border: 1px, solid white;
+    border-radius: 20px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+} 
+
+li :hover{
+    opacity: 0.9; /* 90% */
+    cursor: pointer;
+}
+.film-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .film-image {
+    width: 300px;
+    height: 300px;
+  }
+  
+
+  .film-image:hover + .film-name {
+    opacity: 0.9;
+  }
+
+  .red-text {
+    color: red;
+  }

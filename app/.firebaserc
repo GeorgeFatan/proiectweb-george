@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "filmeflix-b8d0d"
+  },
+  "targets": {
+    "filmeflix-b8d0d": {
+      "hosting": {
+        "public": "public",
+        "app": [
+          "filmeflix-b8d0d"
+        ]
+      }
+    }
+  }
+}
